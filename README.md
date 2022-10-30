@@ -11,4 +11,4 @@ This repository contains a work day scheduler that displays currrent date and ti
 
 # Link to deployed application
 
-# Screenshot of deployed application
+Screenshot of deployed application 
