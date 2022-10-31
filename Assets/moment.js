@@ -1,4 +1,4 @@
-var currentDay = $("currentDay");
+var currentDay = $("#currentDay");
 var currentHour = moment().format("HH");
 console.log(currentHour); //check current hour
 
@@ -9,7 +9,7 @@ currentTime.text(moment().format("h:mm a")); //store current time
 currentTime.attr("class", "time");
 currentDay.append(currentTime); //append to current day
 
-function colorChange () { //will change color of the text area based on past, present, future
+function colorChange() { //will change color of the text area based on past, present, future
     
     for (var i = 9 ; i <= 17 ; i++) {
 
