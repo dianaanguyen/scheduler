@@ -10,5 +10,5 @@
 This repository contains a work day scheduler that displays currrent date and time. Time block contains times from 9AM-5PM and is color coded for users to know if the time is in the past, present, or future. This application allows user to enter items and save it using local storage.
 
 # Link to deployed application
-
+https://dianaanguyen.github.io/scheduler/
 Screenshot of deployed application 
