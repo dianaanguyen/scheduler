@@ -12,7 +12,7 @@ function showCalendar() {
 function saveToLocalStorage(e) { // saves to local storage
     e.preventDefault();
     var array = [];
-    for (i = 9; i <= 17; i++) { //9-17 meaning time block from 9am-5pm
+    for (i = 10; i <= 18; i++) { //9-17 meaning time block from 9am-5pm
         var value = $('#' + i).val(); 
         if (value) {
             var storeObject = {

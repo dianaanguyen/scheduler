@@ -11,7 +11,7 @@ currentDay.append(currentTime); //append to current day
 
 function colorChange() { //will change color of the text area based on past, present, future
     
-    for (var i = 9 ; i <= 17 ; i++) {
+    for (var i = 10 ; i <= 18 ; i++) {
 
         var hourID = $("#" + i).attr("id")
         var textArea = $("#" + i)
@@ -21,7 +21,6 @@ function colorChange() { //will change color of the text area based on past, pre
 
         } else if (currentHour === hourID) {
             textArea.css("backgroundColor", "lightblue"); //color for present time
-
         } else if (currentHour < hourID) {
             textArea.css("backgroundColor", "pink"); //color for future
         }
