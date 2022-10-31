@@ -14,7 +14,7 @@ textarea {
   background-color: transparent;
   color: black;
   border-radius: 0;
-  border-bottom: 10px solid pink;
+  border-bottom: 15px solid lightpink;
 }
 
 .background {
@@ -27,12 +27,24 @@ textarea {
 }
 
 .title {
-  color: pink;
+  color: rgb(69, 70, 70);
   animation: 1s ease-out 0s 1 slideInFromLeft;
 }
 
 .time-tables {
   animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+
+.lead,
+.past,
+.current,
+.future {
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+
+.time {
+  margin-top: 1%;
+  font-weight: bold;
 }
 
 .past {
@@ -53,11 +65,6 @@ textarea {
   margin: auto;
 }
 
-.time-block {
-  text-align: center;
-  border-radius: 15px;
-}
-
 .saveBtn {
   border-left: 1px solid pink;
   border-top-right-radius: 15px;
@@ -71,4 +78,13 @@ textarea {
   transition: all 0.3s ease-in-out;
   background-color: pink;
   border: 2px solid white;
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
