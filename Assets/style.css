@@ -29,6 +29,7 @@ textarea {
 .title {
   color: rgb(69, 70, 70);
   animation: 1s ease-out 0s 1 slideInFromLeft;
+  font-weight: bold;
 }
 
 .time-tables {
