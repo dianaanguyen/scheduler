@@ -18,7 +18,29 @@ textarea {
   background-color: transparent;
   color: black;
   border-radius: 0;
-  border-bottom: 10px solid black;
+  border-bottom: 10px solid pink;
+}
+
+.title {
+  color: pink
+}
+
+.past {
+  background-color: lightgrey;
+  max-width: 60px;
+  margin: auto;
+}
+
+.current {
+  background-color: aliceblue;
+  max-width: 60px;
+  margin: auto;
+}
+
+.future {
+  background-color: pink;
+  max-width: 60px;
+  margin: auto;
 }
 
 .description {
@@ -48,7 +70,7 @@ textarea {
 }
 
 .present {
-  background-color: #ff6961;
+  background-color: pink;
   color: white;
 }
 
@@ -58,11 +80,11 @@ textarea {
 }
 
 .saveBtn {
-  border-left: 1px solid black;
+  border-left: 1px solid pink;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06aed5;
-  color: white;
+  background-color: white;
+  color: black;
 }
 
 .saveBtn i:hover {
