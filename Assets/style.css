@@ -22,14 +22,16 @@ textarea {
   width: 100%;
   position: absolute;
   top: 0; left: 0;
-  background-color: #fff;
+  background: linear-gradient(109.6deg, rgb(245, 239, 249) 30.1%, rgb(207, 211, 236) 100.2%);
+  /* background-color: #fff; */
   background-attachment: fixed;
 }
 
 .title {
-  color: rgb(69, 70, 70);
+  color: rgb(242, 181, 200);
   animation: 1s ease-out 0s 1 slideInFromLeft;
   font-weight: bold;
+  text-shadow: 1px 1px 2px black, 0 0 25px lightgrey, 0 0 5px lightpink;
 }
 
 .time-tables {
@@ -55,7 +57,7 @@ textarea {
 }
 
 .current {
-  background-color: lightblue;
+  background-color: #CCCCFF;
   max-width: 60px;
   margin: auto;
 }

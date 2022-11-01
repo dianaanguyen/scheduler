@@ -20,7 +20,7 @@ function colorChange() { //will change color of the text area based on past, pre
             textArea.css("backgroundColor", "lightgrey"); //color for past
 
         } else if (currentHour === hourID) {
-            textArea.css("backgroundColor", "lightblue"); //color for present time
+            textArea.css("backgroundColor", "#CCCCFF"); //color for present time
         } else if (currentHour < hourID) {
             textArea.css("backgroundColor", "pink"); //color for future
         }
