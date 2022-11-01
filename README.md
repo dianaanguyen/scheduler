@@ -11,4 +11,6 @@ This repository contains a work day scheduler that displays currrent date and ti
 
 # Link to deployed application
 https://dianaanguyen.github.io/scheduler/
+
 Screenshot of deployed application 
+![Screen Shot 2022-10-31 at 5 07 47 PM](https://user-images.githubusercontent.com/111664734/199131840-385d460a-97f4-4bbf-8041-1457ed9a4e24.png)
