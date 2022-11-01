@@ -31,7 +31,7 @@ textarea {
   color: rgb(242, 181, 200);
   animation: 1s ease-out 0s 1 slideInFromLeft;
   font-weight: bold;
-  text-shadow: 1px 1px 2px black, 0 0 25px lightgrey, 0 0 5px lightpink;
+  text-shadow: 1px 1px 2px black, 0 0 25px lightgrey, 0 0 5px grey;
 }
 
 .time-tables {
